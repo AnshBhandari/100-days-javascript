@@ -21,7 +21,7 @@ const findLongestWord1 = (str) => {
   words = words.sort((a, b) => a.length - b.length);
   return words.at(-1);
   // words = words.sort((a, b) => b.length - a.length);
-  // return words.at(0);
+  // return words.charAt(0);
 };
 
 const findLongestWord2 = (str) => {
