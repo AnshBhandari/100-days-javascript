@@ -9,4 +9,10 @@ const findMax = (arr) => {
 
 console.log(
     findMax([3, 72, 54, 21, 2])
-)
+);
+
+arr = []                     
+console.log(arr);                //  []
+console.log(...arr);             //  
+console.log(Math.max(...arr));   // -Infinity
+console.log(Math.min(...arr));   // Infinity
