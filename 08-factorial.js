@@ -23,7 +23,7 @@ const factorial_1 = (num) => {
   }
 };
 
-const factorial_2 = (num) => {
+const factorial_recurr = (num) => {
   if (num >= 0) {
     if (num === 0) {
       return 1;
@@ -36,10 +36,10 @@ const factorial_2 = (num) => {
 };
 
 console.log(factorial_1(0));
-console.log(factorial_2(0));
+console.log(factorial_recurr(0));
 
 console.log(factorial_1(-1));
-console.log(factorial_2(-1));
+console.log(factorial_recurr(-1));
 
 console.log(factorial_1(3));
-console.log(factorial_2(3));
+console.log(factorial_recurr(3));
