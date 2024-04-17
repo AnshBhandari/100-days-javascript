@@ -8,7 +8,7 @@
 // If the array has an odd number of elements, the median is the middle elements.
 // If the array has an even number of elements, the median is the average of the two middle elements.
 
-const findMedian = (arr) => {
+const calculateMedian = (arr) => {
     // if (arr.length === 0)
     // {
     //     return 0;
@@ -24,6 +24,6 @@ const findMedian = (arr) => {
     return arr[mid];
 }
 
-console.log(findMedian([5, 3, 9, 1, 7]));      // 5
-console.log(findMedian([2, 4, 6, 8]));         // 5
-console.log(findMedian([1, 3, 5, 7, 9, 11]));  // 6
+console.log(calculateMedian([5, 3, 9, 1, 7]));      // 5
+console.log(calculateMedian([2, 4, 6, 8]));         // 5
+console.log(calculateMedian([1, 3, 5, 7, 9, 11]));  // 6
